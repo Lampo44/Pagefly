@@ -94,7 +94,9 @@ li.c-item{
     padding: 40px;
     margin: 40px 0px;
 }
-.square-box img{}
+.square-box img{
+    width: 100%;
+}
 .square-box h4{
     font-size: 17px;
     font-weight: 700;
@@ -309,3 +311,87 @@ li.c-item{
 .copyright p a{
     color: #fff;
 }
+
+
+
+/* ---------- Codes for Responsive webpage ------------ */
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .purple-bg {
+        padding: 25px 225px;
+        margin: 20px 0px 40px -190px;
+    }
+    .banner-header h1 {
+        width: 125%;
+    }
+    .brands h2 {
+        font-size: 52px;
+        margin-left: 0;
+    }
+    .copyright {
+        width: 60%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .panda-container {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .panda-container img {
+        width: 70%;
+    }
+    .invitation h2 {
+        width: 115%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .purple-bg {
+        background: #5f67ff;
+        padding: 25px 128px;
+        border-radius: 5px;
+        margin: 25px 0px 25px -125px;
+    }
+    .nav-item .c-item {
+        padding: 9px 16px;
+        margin-top: 6px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }
