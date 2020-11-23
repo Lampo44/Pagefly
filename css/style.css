@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* ---- common CSS -----*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+i, p{
+    color: #000;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0px;
+}
+a, a:hover{
+    text-decoration: none;
+    color: #000;
+}
+ul, ol{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header CSS starts */
+.bg-light{
+    padding: 25px 0px;
+}
+a.navbar-brand img{
+    width: 45%;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-weight: 800;
+    color: #333 !important;
+}
+.nav-item .c-item{
+    border: 1px solid #5f67ff;
+    border-radius: 30px;
+    padding: 3px 0px;
+    margin-top: 6px;
+    color: #5f67ff !important;
+}
+li.c-item{
+    margin-top: -6px;
+}
+.nav-item .nav-link i{}
+.nav-item .btn{
+    background: #5f67ff;
+    border: none;
+    padding: 13px 27px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* Banner CSS starts */
+.banner{
+}
+.purple-bg{
+    background: #5f67ff;
+    padding: 25px 128px;
+    border-radius: 5px;
+    margin: 75px 0px 0px -125px;
+}
+.purple-bg h2{
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner-header{
+    padding: 20px 0px;
+}
+.banner-header h1{
+    color: #5f67ff;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-inner{}
+.banner-inner h3{
+    font-weight: 700;
+}
+.square-box{
+    box-shadow: 0px 15px 20px 0px #5f67ff2b;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 40px 0px;
+}
+.square-box img{}
+.square-box h4{
+    font-size: 17px;
+    font-weight: 700;
+    padding: 30px 0px 5px;
+}
+.square-box p{}
+
+/* Joining CSS starts */
+.joining{}
+.panda-container{
+    box-shadow: 0px 12px 20px #0000001c;
+    border-radius: 3px;
+    padding: 40px;
+}
+.panda-container img{}
+.joining-inner{
+    box-shadow: 0px 12px 20px #0000001c;
+    border-radius: 3px;
+    padding: 31px;
+    margin-top: 75px;
+}
+.joining-inner h4{
+    font-size: 29px;
+    font-weight: 700;
+    color: #5f67ff;
+}
+.joining-inner h5{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 15px 0px;
+}
+.joining-inner p{}
+
+/* ------- Brands CSS starts ------ */
+.brands{}
+.brands h2{
+    padding: 50px 0px 20px 0px;
+    font-size: 58px;
+    font-weight: 600;
+    margin-left: 80px;
+    color: #5F67FF;
+}
+.brands .img-contain{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 8px 20px #0000001a;
+    border-radius: 3px;
+}
+.brands .img-contain img{
+    width: 100%;
+    height: 100%;
+    margin: 30px 0px;
+}
+.brands .img-contain::before{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #5F67FF;
+    position: absolute;
+}
+.brands .logo-caption{
+    text-align: center;
+}
+.brands .logo-caption h5{
+    padding: 25px 0px 10px 0px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.brands .logo-caption p{
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+.brands .img-contain .growave{
+    width: 100%;
+}
+.brands .img-contain .saleshunter{
+    width: 40%;
+    margin: 52px 0px;
+}
+.brands .img-contain .loox{
+    width: 27%;
+    margin: 50px 0px;
+}
+.brands .img-contain .litextension{
+    width: 65%;
+    margin: 45px 0px;
+}
+.brands .img-contain .judgeme{
+    width: 10%;
+    margin: 46px 0px;
+}
+.brands .img-contain .carson{
+    width: 40%;
+    margin: 46px 0px;
+}
+.brands .img-contain .wiser{
+    width: 42%;
+    margin: 43px 0px;
+}
+.brands .img-contain .alireviews{
+    width: 36%;
+    margin: 46px 0px;
+}
+.brands .img-contain .Yotpo{
+    width: 19%;
+    margin: 28px 0px;
+}
+.brands .img-contain .weglot{
+    width: 36%;
+    margin: 40px 0px;
+}
+.brands .img-contain .secomapp{
+    width: 20%;
+    margin: 20px 0px;
+}
+.brands .img-contain .avada{
+    width: 36%;
+    margin: 40px 0px;
+}
+.brands .img-contain .modemagic{
+    width: 45%;
+}
+.brands .img-contain .opinew{
+    width: 48%;
+    margin: 35px 0px;
+}
+.brands .img-contain .pickystory{
+    width: 12%;
+    margin: 40px 0px;
+}
+.brands .img-contain .eginestudio{
+    width: 80%;
+    margin: 25px 0px;
+}
+.brands .img-contain .nextsales{
+    width: 16%;
+    margin: 33px 0px;
+}
+.brands .img-contain .popupgames{
+    width: 18%;
+}
+
+/* ------- invitation CSS starts ------- */
+.invitation{
+    padding-bottom: 80px;
+}
+.invitation h2{
+    font-size: 31px;
+    font-weight: 600;
+    padding: 45px 0px;
+}
+.invitation-inner{
+    padding-bottom: 25px;
+}
+.invitation-inner h2{
+    padding: 0px;
+}
+.invitation-inner h2 span{
+    font-size: 77px;
+    color: #5F67FF;
+}
+.invitation-inner h4{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+.invitation-inner p{
+    color: #666;
+    font-size: 12px;
+}
+.invitation-btn .btn{
+    border: none;
+    background: #5F67FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 23px;
+}
+.invitation-btn .btn:hover{
+    background: #464CC5;
+}
+
+/* ------ footer CSS starts ------------ */
+.main-footer{background: #333;padding: 40px 0px;}
+.main-footer .footer-inner{}
+.footer-inner h5{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.footer-inner ul{}
+.footer-inner ul li{
+}
+.footer-inner ul li a{
+    color: #fff;
+    font-size: 12px;
+    transition-duration: .3s;
+}
+.footer-inner ul li a:hover{
+    color: #b1b1b1;
+}
+.main-footer hr{
+}
+.copyright{}
+.copyright p{
+    color: #fff;
+    font-size: 12px;
+}
+.copyright p a{
+    color: #fff;
+}
